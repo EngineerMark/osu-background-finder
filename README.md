@@ -6,3 +6,6 @@ Does not deal with crops etc, it simply picks 100 random points each image file 
 
 Runs multithreaded.
 26k maps takes a couple of minutes to process.
+
+
+The code is bad, I know. I was bored and saw AzerFrost's tweet.
