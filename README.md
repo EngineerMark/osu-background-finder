@@ -1,6 +1,6 @@
 # osu-background-finder
 
-## Intro
+## Read this first
 A simple comparison tool that attempts to find osu! beatmaps based on the image input.
 
 Does not deal with crops etc, it simply picks 100 random points each image file and compares those pixel colors
@@ -13,6 +13,10 @@ The code is bad, I know. I was bored and saw AzerFrost's tweet.
 
 
 Only works on Windows because Bitmap usage.
+
+
+
+For some reason, the while loop never ends in Release mode, so the last thread gives the results.
 
 ## How to use
 
